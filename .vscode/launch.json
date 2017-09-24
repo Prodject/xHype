@@ -1,0 +1,14 @@
+# Visual Studio Code Launch App Project Addon
+{
+  "version": "1.0.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch xHype",
+      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron",
+      "program": "${workspaceRoot}/app/index.js",
+      "protocol": "inspector"
+    }
+  ]
+}
